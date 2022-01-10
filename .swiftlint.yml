@@ -1,0 +1,22 @@
+disabled_rules:
+  - trailing_comma
+  - force_try
+  - force_cast
+  - trailing_whitespace
+
+excluded:
+  - Carthage
+  - Pods
+
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+file_length:
+  warning: 500
+  error: 1200
+
+identifier_name:
+  excluded: # excluded via string array
+    - id
+    - URL
