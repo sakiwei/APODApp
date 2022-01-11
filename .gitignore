@@ -96,7 +96,6 @@ iOSInjectionProject/
 
 ### SwiftPackageManager ###
 xcuserdata
-*.xcodeproj
 
 ### SnapshotTesting ###
 __Snapshots__/
