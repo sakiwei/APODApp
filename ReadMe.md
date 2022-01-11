@@ -3,7 +3,7 @@
 
 This is an app designed to show astronomy picture of the day from [NASA's APOD](https://github.com/nasa/apod-api) API.
 
-The whole project is implemented with VIPER and Swift Concurreny framework.
+The whole project is implemented with VIPER and Swift Concurrency framework.
 
 ---
 
