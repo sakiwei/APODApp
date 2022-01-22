@@ -58,6 +58,21 @@
 		F1B327112788BF4B00C1AFBC /* ViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = F1B327102788BF4B00C1AFBC /* ViewKit */; };
 		F1B327142788BF9800C1AFBC /* DataModel in Frameworks */ = {isa = PBXBuildFile; productRef = F1B327132788BF9800C1AFBC /* DataModel */; };
 		F1B327172788C00000C1AFBC /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = F1B327162788C00000C1AFBC /* Networking */; };
+		F1C86316279ABC3200984CF8 /* TabModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86315279ABC3200984CF8 /* TabModuleBuilder.swift */; };
+		F1C8631C279ABC7400984CF8 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8631B279ABC7400984CF8 /* TabView.swift */; };
+		F1C8631E279ABC9300984CF8 /* TabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8631D279ABC9300984CF8 /* TabPresenter.swift */; };
+		F1C86320279ABC9F00984CF8 /* TabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8631F279ABC9F00984CF8 /* TabInteractor.swift */; };
+		F1C86322279ABCB200984CF8 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86321279ABCB200984CF8 /* TabViewController.swift */; };
+		F1C86326279ABE0E00984CF8 /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86325279ABE0E00984CF8 /* TabRouter.swift */; };
+		F1C86335279AC10C00984CF8 /* ListModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8632A279AC10B00984CF8 /* ListModuleBuilder.swift */; };
+		F1C86336279AC10C00984CF8 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8632D279AC10B00984CF8 /* ListPresenter.swift */; };
+		F1C86337279AC10C00984CF8 /* LIstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8632F279AC10B00984CF8 /* LIstViewController.swift */; };
+		F1C86338279AC10C00984CF8 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86330279AC10B00984CF8 /* ListView.swift */; };
+		F1C86339279AC10C00984CF8 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86332279AC10B00984CF8 /* ListInteractor.swift */; };
+		F1C8633A279AC10C00984CF8 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C86334279AC10C00984CF8 /* ListRouter.swift */; };
+		F1C8633C279AC2F900984CF8 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8633B279AC2F900984CF8 /* ListContentView.swift */; };
+		F1C8633E279B584000984CF8 /* ApodListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8633D279B584000984CF8 /* ApodListCell.swift */; };
+		F1C86340279B5FDD00984CF8 /* SortUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C8633F279B5FDD00984CF8 /* SortUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +165,21 @@
 		F1B3270F2788BF4500C1AFBC /* ViewKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ViewKit; sourceTree = "<group>"; };
 		F1B327122788BF9100C1AFBC /* DataModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DataModel; sourceTree = "<group>"; };
 		F1B327152788BFF900C1AFBC /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		F1C86315279ABC3200984CF8 /* TabModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModuleBuilder.swift; sourceTree = "<group>"; };
+		F1C8631B279ABC7400984CF8 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		F1C8631D279ABC9300984CF8 /* TabPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPresenter.swift; sourceTree = "<group>"; };
+		F1C8631F279ABC9F00984CF8 /* TabInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabInteractor.swift; sourceTree = "<group>"; };
+		F1C86321279ABCB200984CF8 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		F1C86325279ABE0E00984CF8 /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
+		F1C8632A279AC10B00984CF8 /* ListModuleBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModuleBuilder.swift; sourceTree = "<group>"; };
+		F1C8632D279AC10B00984CF8 /* ListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		F1C8632F279AC10B00984CF8 /* LIstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LIstViewController.swift; sourceTree = "<group>"; };
+		F1C86330279AC10B00984CF8 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F1C86332279AC10B00984CF8 /* ListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		F1C86334279AC10C00984CF8 /* ListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		F1C8633B279AC2F900984CF8 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		F1C8633D279B584000984CF8 /* ApodListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListCell.swift; sourceTree = "<group>"; };
+		F1C8633F279B5FDD00984CF8 /* SortUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +229,8 @@
 		F1A461F327897C39000DEE9A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F1C86327279AC0D400984CF8 /* List */,
+				F1C86313279ABBF900984CF8 /* Tab */,
 				F1A46226278B1A7F000DEE9A /* DatePicker */,
 				F1A461FC278981F4000DEE9A /* Root */,
 			);
@@ -291,6 +323,7 @@
 				F1A462152789BE4A000DEE9A /* LogUtils.swift */,
 				F1A46224278B1549000DEE9A /* DateUtils.swift */,
 				F1A4623F278B65AE000DEE9A /* StringUtils.swift */,
+				F1C8633F279B5FDD00984CF8 /* SortUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -432,6 +465,130 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1C86313279ABBF900984CF8 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86324279ABDF100984CF8 /* router */,
+				F1C86317279ABC3F00984CF8 /* Core */,
+				F1C86314279ABC2100984CF8 /* Builder */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		F1C86314279ABC2100984CF8 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86315279ABC3200984CF8 /* TabModuleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		F1C86317279ABC3F00984CF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8631A279ABC5C00984CF8 /* View */,
+				F1C86319279ABC5100984CF8 /* Presenter */,
+				F1C86318279ABC4700984CF8 /* Interactor */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F1C86318279ABC4700984CF8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8631F279ABC9F00984CF8 /* TabInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F1C86319279ABC5100984CF8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8631D279ABC9300984CF8 /* TabPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F1C8631A279ABC5C00984CF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8631B279ABC7400984CF8 /* TabView.swift */,
+				F1C86321279ABCB200984CF8 /* TabViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C86324279ABDF100984CF8 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86325279ABE0E00984CF8 /* TabRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		F1C86327279AC0D400984CF8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86329279AC10B00984CF8 /* Builder */,
+				F1C8632B279AC10B00984CF8 /* Core */,
+				F1C86333279AC10C00984CF8 /* router */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F1C86329279AC10B00984CF8 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8632A279AC10B00984CF8 /* ListModuleBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		F1C8632B279AC10B00984CF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8632C279AC10B00984CF8 /* Presenter */,
+				F1C8632E279AC10B00984CF8 /* View */,
+				F1C86331279AC10B00984CF8 /* Interactor */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F1C8632C279AC10B00984CF8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8632D279AC10B00984CF8 /* ListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F1C8632E279AC10B00984CF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C8632F279AC10B00984CF8 /* LIstViewController.swift */,
+				F1C86330279AC10B00984CF8 /* ListView.swift */,
+				F1C8633B279AC2F900984CF8 /* ListContentView.swift */,
+				F1C8633D279B584000984CF8 /* ApodListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1C86331279AC10B00984CF8 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86332279AC10B00984CF8 /* ListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		F1C86333279AC10C00984CF8 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				F1C86334279AC10C00984CF8 /* ListRouter.swift */,
+			);
+			path = router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -620,26 +777,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A462162789BE4A000DEE9A /* LogUtils.swift in Sources */,
+				F1C86340279B5FDD00984CF8 /* SortUtils.swift in Sources */,
+				F1C8631E279ABC9300984CF8 /* TabPresenter.swift in Sources */,
+				F1C8633A279AC10C00984CF8 /* ListRouter.swift in Sources */,
+				F1C86326279ABE0E00984CF8 /* TabRouter.swift in Sources */,
 				F1A4623A278B25D5000DEE9A /* DatePickerContentView.swift in Sources */,
+				F1C8631C279ABC7400984CF8 /* TabView.swift in Sources */,
+				F1C86335279AC10C00984CF8 /* ListModuleBuilder.swift in Sources */,
+				F1C86339279AC10C00984CF8 /* ListInteractor.swift in Sources */,
+				F1C86337279AC10C00984CF8 /* LIstViewController.swift in Sources */,
 				F1A4620D278982EA000DEE9A /* RootModuleBuilder.swift in Sources */,
 				F1A46240278B65AE000DEE9A /* StringUtils.swift in Sources */,
+				F1C86316279ABC3200984CF8 /* TabModuleBuilder.swift in Sources */,
 				F1A461F527897C7E000DEE9A /* AppServiceContainer.swift in Sources */,
 				F1A46209278982D0000DEE9A /* RootViewController.swift in Sources */,
 				F1A46236278B1DDE000DEE9A /* DatePickerModuleBuilder.swift in Sources */,
 				F1A4621427898467000DEE9A /* RootView.swift in Sources */,
 				F1A46234278B1DD3000DEE9A /* DatePickerInteractor.swift in Sources */,
+				F1C8633E279B584000984CF8 /* ApodListCell.swift in Sources */,
 				F1A46230278B1DB7000DEE9A /* DatePickerView.swift in Sources */,
 				F1A4622E278B1DAA000DEE9A /* DatePickerRouter.swift in Sources */,
 				F1B326D32788B7AF00C1AFBC /* AppDelegate.swift in Sources */,
 				F1A46220278AFCD7000DEE9A /* PictureViewModel.swift in Sources */,
 				F1A461F827897CE8000DEE9A /* APODEnpoints.swift in Sources */,
 				F1A4621B2789CEA1000DEE9A /* FetchDailyPictureService.swift in Sources */,
+				F1C8633C279AC2F900984CF8 /* ListContentView.swift in Sources */,
 				F1B326D52788B7AF00C1AFBC /* SceneDelegate.swift in Sources */,
 				F1A4620B278982DF000DEE9A /* RootRouter.swift in Sources */,
+				F1C86320279ABC9F00984CF8 /* TabInteractor.swift in Sources */,
 				F1A461FB27897D6D000DEE9A /* AppConfigs.swift in Sources */,
 				F1A46225278B1549000DEE9A /* DateUtils.swift in Sources */,
 				F1A46212278983BA000DEE9A /* RootContentView.swift in Sources */,
+				F1C86322279ABCB200984CF8 /* TabViewController.swift in Sources */,
+				F1C86338279AC10C00984CF8 /* ListView.swift in Sources */,
 				F1A46232278B1DC5000DEE9A /* DatePickerPresenter.swift in Sources */,
+				F1C86336279AC10C00984CF8 /* ListPresenter.swift in Sources */,
 				F1A46238278B25A9000DEE9A /* DatePickerViewController.swift in Sources */,
 				F1A46207278982C0000DEE9A /* RootInteractor.swift in Sources */,
 				F1A46205278982B4000DEE9A /* RootPresenter.swift in Sources */,

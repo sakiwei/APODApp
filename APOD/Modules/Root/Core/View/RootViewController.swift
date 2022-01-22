@@ -16,11 +16,19 @@ final class RootViewController: UIViewController, ViewSafe {
     typealias ViewType = RootContentView
     var presenter: RootPresenter!
     var disposeBag: [Task<(), Never>] = []
-    
+
+    override init(nibName: String?, bundle: Bundle?) {
+        super.init(nibName: nibName, bundle: bundle)
+        title = "Astronomy Picture of the Day"
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     override func loadView() {
         super.loadView()
         view = createTypeSafeView()
-        title = "Astronomy Picture of the Day"
         showCalenderButton()
     }
     
@@ -46,7 +54,7 @@ final class RootViewController: UIViewController, ViewSafe {
 }
 
 extension RootViewController: RootView {
-    func pictureContentDidLoad(_ content: PictureViewModel) {
+    func pictureContentDidLoad(_ content: AstronomyPicture) {
         typeSafeView.contentView.titleLabel.text = content.title
         typeSafeView.contentView.dateLabel.text = content.date.formatted(
             LocalizedDateFormat(locale: Locale(identifier: "en_US"),

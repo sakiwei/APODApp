@@ -1,19 +1,17 @@
 //
-//  RootContentView.swift
+//  ListContentView.swift
 //  APOD
 //
-//  Created by Sakiwei on 8/1/2022.
+//  Created by Sakiwei on 21/1/2022.
 //
 
 import Foundation
 import UIKit
 import SnapKit
-import ViewKit
 
-final class RootContentView: UIView {
+class ListContentView: UIView {
 
-    let scrollView = UIScrollView()
-    let contentView = PictureDescriptionView()
+    let tableView = UITableView()
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -26,22 +24,14 @@ final class RootContentView: UIView {
 
     private func commonInit() {
         self.backgroundColor = .systemBackground
-        addSubview(scrollView)
-        scrollView.addSubview(contentView)
+        addSubview(tableView)
 
         createConstraints()
     }
 
     private func createConstraints() {
-        scrollView.snp.makeConstraints { make in
+        tableView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
-        }
-
-        contentView.snp.makeConstraints { make in
-            make.top.bottom.equalTo(scrollView)
-            make.left.right.equalTo(self)
         }
     }
 }
-
-

@@ -1,17 +1,16 @@
 //
-//  RootView.swift
+//  ListView.swift
 //  APOD
 //
-//  Created by Sakiwei on 8/1/2022.
+//  Created by Sakiwei on 21/1/2022.
 //
 
 import Foundation
 import DataModel
 
-protocol RootView: AnyObject {
-
+protocol ListView: AnyObject {
     @MainActor
-    func pictureContentDidLoad(_ content: AstronomyPicture)
+    func pictureListDidLoad(_ content: [AstronomyPicture])
 
     @MainActor
     func showLoadingIndicator()

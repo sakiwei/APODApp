@@ -24,10 +24,29 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
     }
 
-    // root
+    // tab
     private func entryPoint(withAppService appService: AppServiceContainer) -> UIViewController {
+        return TabModuleBuilderImpl()
+            .build(enviroment: appService.enviroment,
+                   apiClient: appService.apiClient,
+                   tabViews: [
+                    root(withAppService: appService),
+                    list(withAppService: appService)
+                   ])
+    }
+
+    // root
+    private func root(withAppService appService: AppServiceContainer) -> UIViewController {
         return RootModuleBuilderImpl()
             .build(enviroment: appService.enviroment,
                    apiClient: appService.apiClient)
     }
+
+    // list
+    private func list(withAppService appService: AppServiceContainer) -> UIViewController {
+        return ListModuleBuilderImpl()
+            .build(enviroment: appService.enviroment,
+                   apiClient: appService.apiClient)
+    }
 }
+
